@@ -6,6 +6,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
+// new time
 
 if(!empty($email) && !empty($message)){  //if email and message field is not empty
     if(filter_var($email, FILTER_VALIDATE_EMAIL))
